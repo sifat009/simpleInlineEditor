@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Inline editor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="textContainer" contenteditable="true">
+      This example shows how you can make a hovering menu appear above your
+      content, which you can use to make text bold, italic, or anything else you
+      might want to do!Try it out yourself! Just select any piece of text and
+      the menu will appear.
+    </div>
+
+    <div class="inline-editor">
+      <span class="inline-editor-item" title="Bold">
+        <b class="bold">B</b>
+      </span>
+      <span class="inline-editor-item" title="Italic">
+        <i class="italic">I</i>
+      </span>
+      <span class="inline-editor-item" title="Underline">
+        <u class="underline">U</u>
+      </span>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
